@@ -21,20 +21,17 @@ import java.util.Locale;
  *
  * @author Manu Portolés
  */
-public class main {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+
         final double CAMBIO_EURO_DOLAR = 1.09718;
-        
-        System.out.printf(Locale.ENGLISH, "%s %f $%n","El cambio de hoy es 1€ por", CAMBIO_EURO_DOLAR);
-        
-   
-        
-        
+
+        System.out.printf(Locale.ENGLISH, "%s %f $%n", "El cambio de hoy es 1€ por", CAMBIO_EURO_DOLAR);
+
     }
-    
+
 }
